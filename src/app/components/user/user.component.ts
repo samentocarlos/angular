@@ -33,8 +33,11 @@ addHobby(hobby){
   this.hobbies.unshift(hobby);
   return false;
 }
+
+}
+
 interface Address{
-  street:string,
-  city:string,
-  state:string
+  street:string;
+  city:string;
+  state:string;
 }
