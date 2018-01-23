@@ -33,11 +33,3 @@ addHobby(hobby){
   this.hobbies.unshift(hobby);
   return false;
 }
-
-interface Address {
-  
-    street: 'Tunguch',
-    city: 'Bishkek',
-    state: 'Chuy Oblast'
-  
-}
